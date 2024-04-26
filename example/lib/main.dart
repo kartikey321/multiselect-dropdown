@@ -98,8 +98,6 @@ class _MyHomePageState extends State<MyHomePage> {
                           value: User(name: 'User 5', id: 5)),
                     ],
                     maxItems: 4,
-                    singleSelectItemStyle: const TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.bold),
                     chipConfig: const ChipConfig(
                         wrapType: WrapType.wrap, backgroundColor: Colors.red),
                     optionTextStyle: const TextStyle(fontSize: 16),

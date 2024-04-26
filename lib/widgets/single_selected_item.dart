@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 /// [SingleSelectedItem] is a selected item builder.
 /// It is used to build the selected item.
 class SingleSelectedItem extends StatelessWidget {
-  /// [label] is the selected item label.
-  final String label;
-
   final TextStyle? style;
-
+  final String label;
   const SingleSelectedItem({
+    Key? key,
     required this.label,
     this.style,
-    Key? key,
   }) : super(key: key);
 
   @override
@@ -21,7 +19,7 @@ class SingleSelectedItem extends StatelessWidget {
       child: Text(
         label,
         style: style ??
-            TextStyle(
+            GoogleFonts.poppins(
               fontSize: 13,
               color: Colors.grey.shade700,
             ),

@@ -1,4 +1,4 @@
-import 'package:multi_dropdown/enum/app_enums.dart';
+import '../enum/app_enums.dart';
 
 /// Configuration for the network.
 ///
